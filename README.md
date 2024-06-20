@@ -22,7 +22,7 @@ Você pode visualizar o site do currículo online [aqui](https://karinacmartins.
 - **Git/GitHub**: Controle de versão e hospedagem do projeto.
 
 ## Estrutura do Projeto
-
+.
 ├── index.html # Página principal do currículo
 ├── style.css # Arquivo de estilos CSS
 ├── imagens/ # Pasta para imagens
