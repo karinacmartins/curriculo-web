@@ -1,0 +1,85 @@
+body
+{
+	font-family: Arial;
+	padding: 20px;
+	background-color: #f1f1f1;
+
+}
+
+/*Header com o titulo principal */
+.header {
+	padding: 30px;
+	font-size: 40px;
+	text-align: center;
+	background: white;
+}
+
+.social{
+	width: 16px;
+	height: 16px;
+}
+
+/*Coluna esquerda*/
+.left-column{
+	float: left;
+	width: 25%;
+	padding-right: 20px;
+}
+
+#professional-picture {
+	background-color: #aaa;
+	width: 100%;
+	padding: 20px;
+}
+
+/*Coluna do meio */
+.middle-column {
+	float: left;
+	width: 50%;
+	text-align: left;
+}
+
+
+/*Coluna da direita */
+.right-column {
+	float: left;
+	width: 25%;
+	padding-left: 20px;
+}
+
+.card {
+	background-color: white;
+	padding: 20px;
+	margin-top: 20px;
+	text-align: justify;
+}
+
+
+
+
+.content::after {
+	content: " ";
+	display: table;
+	clear: both;
+	
+}
+
+
+ul li, ol li {
+            margin-bottom: 10px;
+        }
+
+
+/*Rodape */
+.footer {
+	padding: 20px;
+	text-align: center;
+	font-size: 12px;
+	background: #ddd;
+	margin-top: 20px;
+}
+
+
+*{
+	box-sizing: border-box;
+}
