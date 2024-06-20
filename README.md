@@ -21,3 +21,17 @@ Você pode visualizar o site do currículo online [aqui](https://karinacmartins.
 - **CSS3**: Estilização e layout do site, incluindo técnicas de responsividade.
 - **Git/GitHub**: Controle de versão e hospedagem do projeto.
 
+<<<<<<< HEAD
+=======
+## Estrutura do Projeto
+.
+├── index.html # Página principal do currículo
+├── style.css # Arquivo de estilos CSS
+├── imagens/ # Pasta para imagens
+│ └──  foto-profissional.jpg # Foto de perfil
+│ └──  linkedin2.png # Icone do Linkedin
+│ └──  github2.png # Icone do Github
+│ └──  insta.jpeg # Icone do Instagram
+└── README.md # Arquivo de descrição do projeto
+
+>>>>>>> c5b63b628e3c153ad39f7711b1ef855ca08fb3f6
