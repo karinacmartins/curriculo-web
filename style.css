@@ -83,3 +83,22 @@ ul li, ol li {
 *{
 	box-sizing: border-box;
 }
+
+@media all and (max-width: 900px){
+
+	.header{
+		font-size: 100%;
+	}
+	.left-column {
+		width: 100%;
+		padding-right: 0px;
+	}
+	.middle-column {
+		width: 100%;
+	}
+	.right-column{
+		width: 100%;
+		padding-left: 0px;
+	}
+
+}
