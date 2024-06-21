@@ -17,8 +17,9 @@ Você pode visualizar o site do currículo online [aqui](https://karinacmartins.
 
 ## Tecnologias Utilizadas
 
-- **HTML5**: Estruturação do conteúdo do site.
-- **CSS3**: Estilização e layout do site, incluindo técnicas de responsividade.
+- **HTML**: Estruturação do conteúdo do site.
+- **CSS**: Estilização e layout do site, incluindo técnicas de responsividade.
+- **JavaScript**: Interatividade na foto.
 - **Git/GitHub**: Controle de versão e hospedagem do projeto.
 
 
