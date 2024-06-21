@@ -111,3 +111,32 @@ body {
     animation-delay: 2s;
     animation-iteration-count: 2;
 }
+
+/* Estilos para telas menores (móveis) */
+@media screen and (max-width: 768px) {
+    .content {
+        flex-direction: column; /* Altera para uma coluna */
+    }
+
+    .left-column, .middle-column, .right-column {
+        width: 100%; /* Largura total em dispositivos móveis */
+        padding: 0; /* Remove o espaçamento interno */
+    }
+
+    .header {
+        position: relative; /* Remove a posição fixa para que não sobreponha o conteúdo */
+        z-index: auto; /* Z-index padrão */
+    }
+
+    .quick-access {
+        text-align: center; /* Centraliza os itens */
+    }
+
+    .quick-access ul {
+        flex-direction: column; /* Altera para uma coluna */
+    }
+
+    .card {
+        margin: 10px 0; /* Espaçamento entre os cartões */
+    }
+}
