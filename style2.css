@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.header {
+    background-color: #D8BFD8; /* Cor lilás mais claro */
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.header h2 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.quick-access {
+    background-color: #DDA0DD; /* Tom lilás claro */
+    color: white;
+    padding: 0.5rem;
+}
+
+.quick-access ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.quick-access ul li {
+    margin: 0 1rem;
+}
+
+.quick-access ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.quick-access ul li a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 6rem 1rem 1rem; /* Ajuste do padding para o espaço fixo do header */
+}
+
+.left-column, .middle-column {
+    flex: 1;
+    padding: 1rem;
+}
+
+.card {
+    background-color: white;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card img.social {
+    width: 20px;
+    vertical-align: middle;
+}
+
+.card img#professional-picture {
+    width: 100%; /* Ajusta a largura da foto */
+    max-width: 150px; /* Limita a largura máxima */
+    border-radius: 50%; /* Faz a foto redonda */
+    display: block;
+    margin: 0 auto;
+    transition: transform 0.5s; /* Transição para o efeito de giro */
+}
+
+.card img#professional-picture.rotate {
+    transform: rotate(360deg); /* Efeito de giro */
+}
+
+.footer {
+    background-color: #D8BFD8;
+    text-align: center;
+    padding: 1rem;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+@keyframes rotate-image {
+    50% {
+        transform: translateZ(10px) rotateX(60deg) rotateZ(29deg) rotateY(180deg);
+    }
+}
+
+#professional-picture {
+    animation-name: rotate-image;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 2s;
+    animation-iteration-count: 2;
+}
