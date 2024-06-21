@@ -125,7 +125,7 @@ body {
     }
 
     .header {
-        position: reltive; /* Remove a posição fixa para que não sobreponha o conteúdo */
+        position: relative; /* Remove a posição fixa para que não sobreponha o conteúdo */
         z-index: auto; /* Z-index padrão */
     }
 
